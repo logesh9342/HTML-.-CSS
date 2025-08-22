@@ -1,0 +1,122 @@
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 100%; 
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color:#f9f9f9;
+color: blue;
+line-height: 1.6;
+
+}
+
+p{
+color:black;
+}
+
+header {
+background-color: green;
+color: white;
+padding: 2vh 5vw;
+display:flex ;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1{
+font-size: 1.3rem;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 2vw;
+font-size: 1rem;
+}
+
+main {
+max-width:33%;
+height:80%;
+margin: 5vh auto;
+background: white;
+padding: 3vh 4vw;
+border-radius: 0.5rem;
+box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}
+
+form {
+display: flex;
+color:black;
+flex-direction: column;
+}
+
+form label {
+margin-top: 1rem;
+font-weight: bold;
+}
+
+form input, form textarea {
+margin-top: 0.5rem;
+padding: 0.8em;
+font-size: 1rem;
+width: 100%;
+border: 0.1rem solid #ccc;
+border-radius: 0.3rem;
+}
+
+form button {
+margin-top: 1.5rem;
+padding: 1em;
+background-color:green;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 1rem;
+}
+
+form button:hover {
+
+background-color:red;
+
+}
+
+nav a:hover{
+background-color:black;
+padding:10px;
+border-radius:5px;
+}
+
+
+footer {
+background-color: green;
+color: white;
+text-align: center;
+padding: 2vh 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
+.a{
+
+font-family: Arial, sans-serif;
+font-size:1rem;
+}
+
+.aa{
+max-width:80%;
+height:80%;
+margin: 5vh auto;
+background: white;
+padding: 3vh 4vw;
+border-radius: 0.5rem;
+box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+}

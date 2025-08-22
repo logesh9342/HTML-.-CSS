@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(136, 247, 247); 
+    height: 100%;
+    
+}
+
+
+
+header {
+    background-color: rgba(118, 5, 194, 0.856);
+    color: aliceblue;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+    
+}
+
+.h-one{
+    background-color: rgb(11, 11, 15); 
+    padding: 10px;
+    display: inline;
+    position: static;
+    margin-top: 10px;
+    color: aliceblue;
+    border:5px double greenyellow
+    
+}
+
+span{
+    text-decoration: underline;
+    padding: 5px;
+    text-shadow: 5px 5px 5px rgba(243, 35, 35, 0.938);
+   
+}
+
+button{
+    background-color: rgb(248, 46, 10);
+    border-radius: 5px;
+    color: rgb(22, 12, 12);
+    padding: 5px;
+    border: 10px solid rgb(15, 157, 212);
+    display: inline;
+}
+button:hover{
+    background-color: rgb(26, 241, 7);
+}
+
+h3{
+    display: inline;
+    position:absolute;
+    color:white;
+    background-color: rgb(70, 11, 231);
+    padding: 10px;
+    margin-top: 300px;
+    border: 9px ridge rgb(8, 8, 8);    
+}
+
+p{
+    background-color: brown;
+    display:block;
+    position: relative;
+    color: rgb(177, 226, 43);
+    margin:20px;
+    border: 5px dotted black;
+    padding: 10px;
+ 
+}
+
+  
+h5{
+    position: fixed; 
+    background-color: rgba(118, 5, 194, 0.856);
+    color: aliceblue;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+    
+
+}
+

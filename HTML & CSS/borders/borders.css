@@ -1,0 +1,84 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+    background-color: rgb(10, 7, 1);
+}
+
+.border{
+     display: flex; 
+     flex-wrap: wrap;
+     margin: 20px; 
+}
+
+h1{
+   font-style: italic;
+   color:white; 
+   text-align: center; 
+   background-color: brown;
+   padding: 15px;
+}
+
+img {
+     height: 180px;
+     width: 180px;
+     padding: 10px;
+     margin: 20px;
+}
+
+.dotted img {
+     border-style: dotted;
+     border-color: red;
+     border-width:8px;
+}
+
+.dashed img {
+     border-style: dashed;
+     border-color: rgb(72, 240, 72);
+     border-width:8px;
+}
+
+.groove img {
+     border-style: groove;
+     border-color: rgb(202, 243, 22);
+     border-width:10px;
+}
+
+.ridge img {
+     border-style: ridge;
+     border-color: hsl(160, 87%, 57%);
+     border-width:10px;
+}
+
+
+.inset img {
+     border-style: inset;
+     border-color: blue;
+     border-width:10px;
+}
+
+.outset img {
+     border-style: outset;
+     border-color: blueviolet;
+     border-width:10px;
+}
+    
+.double img {
+     border-style: double;
+     border-color: aqua;
+     border-width:10px;
+}
+ 
+.solid img {
+     border-style: solid;
+     border-color: rgb(240, 18, 173);
+     border-width:10px;
+}
+
+.mixed img{
+      border-style:dashed double dotted ridge;
+      border-color: blue;
+      border-width:10px;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<head>
+<title>selectors</title>
+<style>
+h1::before{
+content:"!!..";
+}
+
+h2>p{
+
+background-color:blue;
+}
+
+h1+p{
+color:red;
+}
+
+body{
+background:black;
+}
+
+h1::after{
+content:"..!!";
+}
+
+p::first-letter{
+background-color:white;
+}
+
+h2::first-line{
+background-color:white;
+}
+
+h1:hover{
+color:white;
+background-color:green;
+}
+
+h2:hover{
+color:white;
+background-color:blue;
+}
+
+.para:hover{
+color:white;
+background-color:pink;
+}
+p:hover{
+color:white;
+background-color:red;
+}
+
+h2::selection{
+color:brown;
+}
+
+h1,p,h2 {
+text-align:center;
+color:violet;
+text-style:italic;
+}
+</style>
+</head>
+<body>
+<h1>hii..thiis CSS selectors</h1>
+<h2>this is an another example</h2>
+<p>now are seeing the praticing tasks using html and css selectors</p>
+<p class="para">now are seeing the praticing tasks using html and css selectors</p>
+
+</body>

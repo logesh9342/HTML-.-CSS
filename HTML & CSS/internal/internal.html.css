@@ -1,0 +1,28 @@
+<!doctype html>
+<title>internal css</title>
+<body>
+<h1>inline</h1>
+<p>example for the internal css</p>
+</body>
+<style>
+
+title{
+color:red;
+background-color:black;
+font-size:15px;
+}
+
+body{
+backgrround-color:skyblue;
+font-style:italic;
+font-color:black;
+}
+
+p{
+font-color:green;
+padding:15px;
+color:green;
+}
+</style>
+
+</html>

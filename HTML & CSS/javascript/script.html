@@ -1,0 +1,48 @@
+<!doctype html>
+<head>
+<title>Javascript</title>
+</head>
+
+
+
+<body style="margin:0; background-color:rgb(226, 86, 114); text-align:center;">
+
+<script>
+      alert("NOW YOUR IN JAVASCRIPT");
+      document.write("<h2 style='background-color:black; color:yellow; text-decoration:underline red; padding:10px; border:5px dashed violet; text-transform:uppercase; margin:0px 0px 10px;font-size:15px; text-align:center;'>javascript and stylesheet</h2>")
+function wcom(){
+alert("welcome to javascript");
+}
+
+function crosss(){
+	document.getElementById("cross").style="text-decoration:line-through underline overline; color:rgb(217, 231, 23); text-transform:lowercase;"	
+}
+
+function change(){
+
+  document.getElementById("abc").style='color:#18eeeeef;  background-color:black; border:5px double; font-style:italic;'
+  
+
+}
+
+function lines(){
+	document.getElementById("line").style='text-decoration:underline; border:5px dotted yellow; outline:5px solid blue; padding:10px; outline-offset:10px;'
+}
+
+function call(){
+	document.write("<h1 style='background-color:black; color:#18ee22ef; border:5px double; text-align:center'>Welcome to Javascript</h1><h2 style='color:yellow; background-color:black; border:5px dotted red; text-transform:captalize;font-style:italic;'><ul><li>Creating buttons</li><li>Working on function</li><li>border and outline Properties</li><li>Text properties</li></ul></h2><h3 style='background-color:black; color:#18ee22ef; border:5px double; text-align:center;'>!! THANK YOU !!</h3>");
+
+}
+
+</script>
+<button onclick="wcom()">Welcome</button>
+<button onclick="crosss()">line through</button>
+<button onclick="lines()">liness</button>
+<button onclick="change()">Border</button>
+<button onclick="call()">Topics</button>
+<p id="abc">!! Logesh !!</p>
+<p id="line">outline and underline</p>
+<p id="cross">Line through</p>
+
+</body>
+</html>

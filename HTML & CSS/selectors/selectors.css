@@ -1,0 +1,112 @@
+* {
+  margin: 0;x
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e7e4e4;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+}
+
+.highlight{
+    color: darkblue;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-title {
+  font-size: 2em;
+  color: #ffd700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: rgb(22, 182, 245);
+  font-weight: 500;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background: #05f119ea;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 + p {
+  color: rgb(245, 5, 5);
+  font-style: italic;
+}
+
+h3 ~ p {
+  color: teal;
+}
+
+input[type="text"] {
+  padding: 5px;
+  outline: 3px ridge #4e0ee2;
+}
+
+ul li:first-child {
+  font-style: italic;
+}
+
+ul li:last-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(2) {
+  color: orange;
+}
+
+h2::before {
+  content: "👉 ";
+  color: red;
+}
+
+h2::after {
+  content: " 👈";
+  color: red;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+  color: darkred;
+}
+
+input[type="file"]::file-selector-button{
+    
+    color: rgb(9, 1, 17);
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}

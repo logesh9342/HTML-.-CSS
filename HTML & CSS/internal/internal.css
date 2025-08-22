@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internal CSS</title>
+  <style>
+    body {
+      background-color: blue;
+      font-style: italic;
+      color: black; /* Correct property: 'color', not 'font-color' */
+      text-align: center;
+    }
+
+    p {
+      color: green; /* 'font-color' is invalid, use 'color' */
+      padding: 15px;
+    }
+
+    h2 {
+      color: violet;
+      font-family: Arial; /* 'font-style' is wrong, should be 'font-family' */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Inline</h1>
+  <h1>Internal CSS</h1>
+  <h2>External CSS</h2>
+  <p>Example for the internal CSS using Notepad</p>
+</body>
+</html>
