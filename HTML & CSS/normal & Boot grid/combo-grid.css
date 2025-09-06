@@ -1,0 +1,135 @@
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: sans-serif;
+      background-color: #c58d8d;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .dialer-con {
+      width: 100%;
+      max-width: 340px;
+      background-color: #0e0d0d;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .dialer-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #bce40a;
+      text-align: center;
+      width: 100%;
+    }
+
+    .display {
+      height: 50px;
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 18px;
+      color: #333;
+      text-align: right;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .grid-dialer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      width: 100%;
+    }
+
+
+ .apple 
+    { background-color: #ff4d4d; }
+
+    .banana {
+         background-color: #ffd633; color: #333; }
+
+    .orange {
+         background-color: #ff9933; }
+
+    .grape { 
+        background-color: #9933cc; }
+
+    .kiwi {
+         background-color: #66cc66; }
+
+    .mango {
+         background-color: #ffa500; }
+
+    .blueberry { 
+        background-color: #4d79ff; }
+
+    .strawberry {
+         background-color: #ff3366; }
+
+    .pineapple {
+         background-color: #ffdb4d; color: #333; }
+
+    .pine {
+         background-color: #ffb366; }
+
+    .cherry { 
+        background-color: #e60000; }
+
+    .watermelon { background-color: #33cc99; }
+    .bootstrap-dialer .container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+
+    .bootstrap-dialer .row {
+
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .bootstrap-dialer .col-4 {
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .fruit-btn {
+      width: 100%;
+     
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+    }
+
+    .fruit-btn {
+     width: 100%;
+    padding-top: 70%; 
+    position: relative;
+    }
+
+
+
+
+    .fruit-btn:hover {
+      transform: scale(1.05);
+    }
+
+   
